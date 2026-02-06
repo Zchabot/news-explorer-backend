@@ -1,21 +1,51 @@
-# Project Name
+# News Explorer – Backend API
 
-News Explorer (Back End)
+RESTful API built with Node.js, Express, and MongoDB to support user authentication and persistent storage of saved news articles.
 
-## Descriprion
+---
 
-Project News Explorer Backend is a server with an API and user authorization that was designed as the backend for an application called News Explorer. This server interacts with the News Explorer front end and stores data, such as user data and article data for the articles that are saved by users on the fron end.
+## 🌍 Deployment
 
-## Technologies and Techniques
+Backend and database are deployed on a cloud-hosted virtual machine.
 
-Project News Explorer Backend was created using technologies such as Node.js, Express.js, and eslint. This project was also designed using RESTful API principals.
+---
 
-## Link
+## 📸 Screenshots
 
-https://api.news-explorer-zc.port0.org
+![Authenticated Request](./demos/auth-request.png.png)
+![Articles JSON Response](./demos/articles-json.png)
 
-## Front End
+---
 
-https://github.com/Zchabot/project-news-explorer-frontend
+## 📌 Overview
 
-https://.news-explorer-zc.port0.org
+This API powers the News Explorer application by handling user accounts and storing user-saved articles. Implements JWT authentication, protected routes, and structured data models.
+
+---
+
+## 🛠 Tech Stack
+
+- Node.js
+- Express
+- MongoDB
+- JWT Authentication
+
+---
+
+## ✨ Key Features
+
+- User registration and login with JWT
+- Protected routes for user-specific data
+- CRUD operations for saved articles
+- Request validation and centralized error handling
+- Structured JSON API responses
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/Zchabot/news-explorer-backend.git
+npm install
+npm run start
+```
